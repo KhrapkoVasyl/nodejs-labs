@@ -7,7 +7,7 @@
     "airbnb-base",
     "eslint:recommended",
     "plugin:import/recommended",
-    "prettier/recommended",
+    "plugin:prettier/recommended",
     "plugin:sonarjs/recommended"
   ],
   "plugins": ["prettier", "sonarjs"],
