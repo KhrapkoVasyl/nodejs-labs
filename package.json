@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node ./src/index.js",
     "test": "echo \"Warn: no test specified\"",
     "eslint": "eslint \"src/**/*.js\"",
     "eslint:fix": "eslint \"src/**/*.js\" --fix",
