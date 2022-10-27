@@ -7,10 +7,10 @@
   "scripts": {
     "start": "node ./src/index.js",
     "test": "echo \"Warn: no test specified\"",
-    "eslint": "eslint \"src/**/*.js\"",
-    "eslint:fix": "eslint \"src/**/*.js\" --fix",
-    "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write .",
+    "eslint": "eslint --ignore-path .gitignore \"src/**/*.js\"",
+    "eslint:fix": "eslint --ignore-path .gitignore \"src/**/*.js\" --fix",
+    "prettier": "prettier --ignore-path .gitignore --check .",
+    "prettier:fix": "prettier --ignore-path .gitignore --write .",
     "lint": "npm run eslint && npm run prettier",
     "lint:fix": "npm run eslint:fix && npm run prettier:fix",
     "prepare": "husky install"

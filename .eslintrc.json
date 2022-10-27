@@ -7,10 +7,10 @@
     "airbnb-base",
     "eslint:recommended",
     "plugin:import/recommended",
-    "plugin:prettier/recommended",
-    "plugin:sonarjs/recommended"
+    "plugin:sonarjs/recommended",
+    "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier", "sonarjs"],
+  "plugins": ["sonarjs", "prettier"],
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module"
