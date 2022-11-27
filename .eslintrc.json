@@ -19,6 +19,10 @@
     "BigInt": true
   },
   "rules": {
+    "radix": "off",
+    "no-restricted-syntax": "off",
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
     "sonarjs/no-duplicate-string": "off",
     "no-console": "warn",
     "linebreak-style": ["error", "unix"],
