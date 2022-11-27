@@ -19,6 +19,7 @@
     "BigInt": true
   },
   "rules": {
+    "import/extensions": [0],
     "radix": "off",
     "no-restricted-syntax": "off",
     "class-methods-use-this": "off",

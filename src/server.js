@@ -1,5 +1,5 @@
 import * as http from 'node:http';
-import router from './routes';
+import router from './routes.js';
 
 const HOST = process.env.HOST || 'localhost';
 const PORT = parseInt(process.env.PORT) || 8080;

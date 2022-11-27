@@ -1,10 +1,8 @@
-import {
-  ErrorMessageEnum,
-  HttpMethodEnum,
-  responseHelpers,
-  ResponseStatusEnum,
-  safeJSON,
-} from './common';
+import { ErrorMessageEnum } from './common/enums/error-message.enum.js';
+import { HttpMethodEnum } from './common/enums/http-method.enum.js';
+import { ResponseStatusEnum } from './common/enums/response-status.enum.js';
+import { responseHelpers } from './common/helpers/response.helpers.js';
+import { safeJSON } from './common/utils/json.utils.js';
 
 export const processedContentTypes = {
   'text/html': (text) => text,

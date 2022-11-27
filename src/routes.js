@@ -1,5 +1,5 @@
-import { ResponseStatusEnum } from './common';
-import Router from './router';
+import { ResponseStatusEnum } from './common/enums/response-status.enum.js';
+import Router from './router.js';
 
 const router = new Router();
 

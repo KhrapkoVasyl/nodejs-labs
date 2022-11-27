@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node --es-module-specifier-resolution=node ./src/server.js",
+    "start": "node ./src/server.js",
     "test": "echo \"Warn: no test specified\"",
     "eslint": "eslint --ignore-path .gitignore \"src/**/*.js\"",
     "eslint:fix": "eslint --ignore-path .gitignore \"src/**/*.js\" --fix",
